@@ -1,0 +1,49 @@
+.form-main {
+  display: flex;
+  justify-content: center;
+
+  .form-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 75, 75);
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 5px;
+      .add-todo {
+        height: 40px;
+        width: 200px;
+        background-color: rgb(7, 183, 253);
+        color: rgb(255, 254, 254);
+        // margin: 5px;
+        a {
+          text-decoration: none;
+          color: rgb(247, 234, 234);
+          font-size: 20px;
+        }
+      }
+      // .cancel-btn {
+      //   height: 30px;
+      //   width: 60px;
+      //   background-color: rgb(190, 187, 187);
+      //   color: black;
+      //   margin: 5px;
+      // }
+
+      // .delete-btn {
+      //   height: 30px;
+      //   width: 60px;
+      //   background-color: red;
+      //   color: white;
+      // }
+    }
+  }
+}
